@@ -72,12 +72,15 @@ body {
 .question-text {
   color: hsl(240, 6%, 50%);
   display: none;
+  transition: 0.4s linear;
 }
 .show-text .question-text {
   display: block;
+  transition:  0.4s ease-in ;
 }
 .show-text .question-btn {
   transform: rotate(180deg);
+  transition:  0.4s ease-in-out;
 }
 .show-text .question-title {
   color: hsl(238, 29%, 16%);
@@ -98,11 +101,9 @@ body {
     display: block;
     width: 150px;
     position: relative;
-    /* left: -80px; */
-    /* top: 180px; */
     z-index: 1;
-    margin-bottom: -230px;
-    margin-left: -90px;
+    margin-bottom: -240px;
+    margin-left: -70px;
   }
   .woman-desktop {
     display: block;
